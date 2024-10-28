@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t; 
+    cin>> t;
+    while(t--){
+     
+     int A,B,C,D;
+     cin>>A>>B>>C>>D;
+     int sum1 = A + C;
+     int sum2 = B+ D;
+     if (sum1== 180 && sum2 == 180){
+         cout<< "YES"<< endl;}
+     else {
+         cout<<" NO"<< endl;
+     }
+        
+    }
+return 0;
+}   
