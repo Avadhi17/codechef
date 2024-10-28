@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+int result( int flipup , int flipdown ){
+    return min( flipup , flipdown);
+}
+
+int main() {
+	int t ;
+	cin>> t;
+    while(t--){
+    int n;
+    int x;
+    cin >> n >> x;
+    int flipup = x;
+    int flipdown = n-x;
+      
+ cout<< result(flipup , flipdown) << endl;
+}
+ return 0;
+
+}
