@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int X , Y , Z ;
+	cin >> X >> Y ;
+	
+	Z = 7-X-Y ;
+	
+	cout << Z ;
+
+  return 0;
+}
