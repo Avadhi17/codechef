@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	 int Y,X,t ;
+	 
+	 cin >> t ;
+	 while(t--){
+	     
+	 cin >> X >> Y ;
+	  
+	 int mininvest=  X-Y;
+	 
+	 cout << mininvest << endl;
+	 }
+	 
+	 return 0;
+
+}
