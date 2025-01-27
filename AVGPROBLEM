@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	float t, A,B,C;
+	
+	cin >> t;
+    while( t--){
+        
+        cin >> A>>B>>C ;
+        
+        float avg = (A+B)/2;
+        
+        if( avg > C){
+            
+            cout<< "YES"<<endl;
+    
+        }
+        else{
+            
+            cout<<" NO "<< endl;
+        }
+    } return 0;
+}
