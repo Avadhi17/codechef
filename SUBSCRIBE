@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int t ,X;
+	cin >> t;
+    while(t--){
+        
+        cin >> X ;
+        
+        if( X <= 30){
+            cout << "NO" << endl;
+        }
+        else{
+            cout << "YES" << endl;
+        }
+    }
+    
+    return 0;
+}
