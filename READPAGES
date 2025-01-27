@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t,X,Y,N;
+	 cin>> t ;
+	while( t--){
+	    
+	    cin >> N >> X >> Y ;
+	    
+	    int capacity = X*Y;
+    
+	    if(capacity >= N){
+	    cout<< "YES"<< endl;}
+	    else {
+	    cout << "NO" << endl;}
+  }
+  return 0;
+}
