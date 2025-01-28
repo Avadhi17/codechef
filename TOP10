@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+   int t;
+   cin >> t ;
+   while(t>0){
+       
+       int X;
+       cin >> X ;
+       
+       if( X<= 10){
+           
+           cout << "YES"<< "\n";
+       }
+       else {
+           
+           cout<< "NO"<< "\n";
+       }
+       
+       t--;
+   }
+    return 0;
+}
