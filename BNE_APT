@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    
+   int n,m,x,y;
+   cin >> n >> m;
+   cin >> x >> y;
+   // here n=bones people , m= blood people
+   // bones treaats = x , blood treats = dynamic_cast
+    int total_treats = (n*x) + (m*y) ;
+    
+   cout << total_treats<< endl;
+
+}
