@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int t,x,y;
+	cin >> t;
+	while (t--){
+	    
+	    cin >> x >> y;
+	    int diff = x - y;
+
+	   if ( diff > 0){
+	    cout << diff << endl ; }
+	    else{
+	    cout<< (-1)*diff <<endl; }
+	}
+return 0;}
