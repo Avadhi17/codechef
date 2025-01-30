@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int t,x,y;
+	cin>> t;
+	while (t--){
+	cin >> x >> y;
+	// here x=credcoins , y=no.ofbills paid usin cerd
+	
+	cout << (x*y)/100 << endl;
+	// in out we r giving max no of bags chef can get if one bag is of 100 cred points 
+	}
+
+}
