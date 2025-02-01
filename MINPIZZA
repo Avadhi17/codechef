@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	 int t,n,x;
+	 cin >> t;
+	 while (t--){
+	     
+	     cin >> n>> x ;
+	     int slices_needed= n*x;
+	     float no_of_pizzas = (slices_needed+ 3)/4 ;
+	     
+	     cout << ceil(no_of_pizzas) << endl;
+	 }
+
+}
