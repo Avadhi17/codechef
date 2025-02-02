@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+  int t,x,y;
+  cin>> t;
+  while(t--){
+      
+      // here 20% of x iscomission of chef on 1 insurance
+      //so for y insurance it would be (xy20)/100
+      //which should be = 100
+      //xy=500 
+      //y=500/x 
+      
+      cin >> x;
+      y = (500 +x - 1)/ x;
+      
+      
+      cout << y << endl;
+  }
+
+}
