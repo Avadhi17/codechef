@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+ int a,b,x,y,messi,ronaldo;
+ cin >> a>>b>>x>>y;
+ messi = (2*a)+ b;
+ ronaldo = (2*x) + y;
+ if(messi> ronaldo){
+     cout << "Messi"<< endl;
+ }
+ else if(ronaldo> messi){
+     cout <<" Ronaldo "<< endl;
+ }
+ else{
+     cout <<" Equal" << endl;
+ }
+}
