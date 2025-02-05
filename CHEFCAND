@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t,n,x;
+	cin >> t;
+	while(t--){
+	    cin>>n>>x;
+	    int k = n-x ;
+	    int a = k + 3;
+	    if( k > 0){
+	        cout << ceil( a / 4) << endl;
+	    }
+	    else{
+	        cout << 0 << endl ;}
+	    
+	}
+	return 0;
+
+}
