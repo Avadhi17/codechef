@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// 1kg pulp = 10 notebooks
+	int t,n;
+	cin>> t;
+	while( t>0){
+	    cin >> n;
+	    cout << n* 10<< endl;
+	    t--;
+	}
+
+}
