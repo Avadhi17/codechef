@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+ // 20%+20%+30% = 70% 
+ // 70% of 50 = 35
+ // juicer's profit per drink = 15
+ 
+ int t,n;
+ cin >> t;
+ while(t--){
+     cin >> n;
+     cout << 15 * n << endl;
+ }
+
+}
