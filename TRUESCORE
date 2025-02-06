@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+
+    int t, a, b, c, d;
+    cin >> t;
+    while (t--) {
+
+        cin >> a >> b;
+        cin >> c >> d;
+        if (c >= a && d >= b) {
+            cout << "possible" << endl;
+        }
+        else {
+            cout << "impossible" << endl;
+        }
+    }
+
+
+}
