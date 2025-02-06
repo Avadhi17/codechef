@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int t,x,y,z;
+    cin >> t;
+    while(t--){
+        cin >>x>>y>>z;
+        int time_for_y = y/x;
+        
+        if(time_for_y < z){
+            cout << z - time_for_y << endl;
+        }
+        else{
+            cout << 0 <<endl;
+        }
+    }
+
+}
