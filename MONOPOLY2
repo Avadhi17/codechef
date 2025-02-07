@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int p, q, r, s, t;
+    cin >> t;
+    while (t--) {
+        cin >> p >> q >> r >> s;
+        int sum = p + q + r + s;
+
+        if (p > sum - p || q > sum - q || r > sum - r || s > sum - s) {
+            cout << "YES" << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
+    }
+
+}
