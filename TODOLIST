@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t; 
+    cin >> t;
+
+    while (t--) {
+        int n,i; 
+        cin >> n;
+
+        int probs_remove = 0;
+        for ( i = 1; i <= n; ++i) {
+            int rating;
+            cin >> rating;
+            if (rating >= 1000) {
+                probs_remove++;
+            }
+        }
+
+        cout << probs_remove << endl;
+    }
+
+    return 0;
+}
