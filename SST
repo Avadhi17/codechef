@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int t, a, b;
+    cin >> t;
+    while (t--) {
+
+        cin >> a >> b;
+
+        if (a * 2 > b * 1) {
+            cout << "first" << endl;
+        }
+        else if (a * 2 < b * 1) {
+            cout << "second" << endl;
+        }
+        else {
+            cout << "any" << endl;
+        }
+    }
+
+}
