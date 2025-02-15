@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,x,t;
+	cin>>t;
+	while(t--){
+	    cin>>x>>n;
+	    int point_per_case = x/10;
+	    cout<< point_per_case * n << endl;
+	}
+}
