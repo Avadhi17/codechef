@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int code;
+	cin>>code;
+	if (code==404){
+	    cout<<"Not Found"<< endl;
+	}
+	else{
+	    cout<<"Found"<< endl;
+	}
+}
