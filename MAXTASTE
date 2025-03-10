@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+#include<cmath>
+using namespace std;
+
+int max(int x , int y){
+    if(x>y){
+        return x;
+    }
+    else{
+        return y;
+    }
+    
+}
+
+int main() {
+	// your code goes here
+int t,a,b,c,d;
+cin>>t;
+while(t--){
+    cin>>a>>b>>c>>d;
+    int num1= max(a,b);
+    int num2= max(c,d);
+    cout << num1 + num2<<endl;
+}
+}
