@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int x, y, diff;
+    cin >> x >> y;
+    diff = x - y;
+    cout << diff + (y / 2) << endl;
+}
