@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, x, y;
+    cin >> t;
+    while (t--) {
+        cin >> x >> y;
+        if (y > x) {
+            cout << "yes" << endl;
+        }
+        else {
+            cout << "no" << endl;
+        }
+    }
+}
