@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+ int t,x,y;
+ cin>>t;
+ while(t--){
+     cin>>x>>y;
+     //litres needed for 1 person== 2*y;
+     int num1 = x/ (2*y);
+     cout<< floor(num1) << endl;
+     
+ }
+}
