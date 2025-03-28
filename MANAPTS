@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, x, y;
+    cin >> t;
+    while (t--) {
+        cin >> x >> y;
+        int division = y / x;
+        cout << floor(division) << endl;
+    }
+
+}
