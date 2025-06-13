@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int x, y, z;
+        cin >> x >> y >> z;
+        int total_cash = 5 * x + 10 * y;
+        int no_of_ch = total_cash / z;
+        cout << no_of_ch << endl;
+    }
+
+
+}
