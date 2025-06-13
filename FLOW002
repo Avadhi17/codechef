@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int a, b, t, q, r;
+    cin >> t;
+    while (t--) {
+        cin >> a >> b;
+        q = a / b;
+        r = a - b * q;
+        cout << r << endl;
+    }
+
+
+
+}
