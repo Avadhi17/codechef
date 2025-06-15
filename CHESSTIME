@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, n;
+    cin >> t;
+    while (t--) {
+        cin >> n;
+        // n*60 minutes 
+        //. 60*n/20 games => 3*n games.
+        cout << n * 3 << endl;
+    }
+
+}
