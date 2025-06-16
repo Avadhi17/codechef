@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, x, y;
+    cin >> t;
+    while (t--) {
+        cin >> x >> y;
+        int diff = y - x;
+
+        int remaind = (diff + 7) / 8;
+        cout << remaind << endl;
+    }
+
+}
