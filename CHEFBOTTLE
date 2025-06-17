@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, n, x, k;
+    cin >> t;
+    // k liters is available
+    // n empty bottles
+    // x liters per bottle
+    while (t--) {
+        cin >> n >> x >> k;
+        if (x > k) {
+            cout << 0 << endl;
+        }
+        else {
+            if (k / x >= n) {
+                cout << n << endl;
+            }
+            else {
+                cout << k / x << endl;
+            }
+        }
+    }
+
+}
