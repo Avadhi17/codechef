@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, n, m, num;
+    cin >> t;
+    while (t--) {
+        cin >> n >> m;
+        num = n / m;
+        if (n % m == 0) {
+            if (num % 2 == 0) {
+                cout << "yes" << endl;
+            }
+            else {
+                cout << "no" << endl;
+            }
+        }
+        else {
+            cout << "no" << endl;
+        }
+
+    }
+
+}
