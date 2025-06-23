@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, a, b;
+    cin >> t;
+    while (t > 0) {
+        cin >> a >> b;
+        int num = 21 - a - b;
+        if (num >= 1 && num <= 10) {
+            cout << num << endl;
+        }
+        else {
+            cout << -1 << endl;
+        }
+        t--;
+    }
+
+}
