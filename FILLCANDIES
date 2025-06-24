@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, n, k, m;
+    cin >> t;
+    while (t--) {
+        cin >> n >> k >> m;
+        int num1 = k * m;
+        int num2 = n % num1;
+        if (num2 == 0) {
+            cout << n / num1 << endl;
+        }
+        else {
+            cout << (n / num1) + 1 << endl;
+        }
+    }
+
+}
