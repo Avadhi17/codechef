@@ -1,0 +1,24 @@
+#include<string>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, i;
+    string s, r;
+    cin >> t;
+    while (t--) {
+        cin >> s;
+        cin >> r;
+        for (i = 0; i < 5; i++) {
+            if (s[i] == r[i]) {
+                cout << 'G';
+            }
+            else {
+                cout << 'B';
+            }
+        }
+        cout << endl;
+    }
+
+}
