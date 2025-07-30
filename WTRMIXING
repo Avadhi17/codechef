@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // x=hot
+    //y=cold
+    //a=initial
+    //can temp be = b.
+    int t, a, b, x, y;
+    cin >> t;
+    while (t--) {
+        cin >> a >> b >> x >> y;
+        if (a >= b) {
+            int diff1 = a - b;
+            if (y >= diff1) {
+                cout << "yes" << endl;
+            }
+            else {
+                cout << "no" << endl;
+            }
+        }
+        else {
+            int diff2 = b - a;
+            if (x >= diff2) {
+                cout << "yes" << endl;
+            }
+            else {
+                cout << "no" << endl;
+            }
+        }
+    }
+}
