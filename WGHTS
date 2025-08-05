@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, x, y, z, w;
+    cin >> t;
+    while (t--) {
+        cin >> w >> x >> y >> z;
+        int sum1 = x + y;
+        int sum2 = y + z;
+        int sum3 = x + z;
+        int sum4 = x + y + z;
+        if (w == x || w == y || w == z || w == sum1 || w == sum2 || w == sum3 || w == sum4) {
+            cout << "yes" << endl;
+        }
+        else {
+            cout << "no" << endl;
+        }
+
+    }
+
+}
