@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    // your code goes here
+    int t, x;
+    cin >> t;
+    while (t--) {
+        cin >> x;
+        if (x % 5 == 0) {
+            int a = x / 5;
+            if (a % 2 == 0) {
+                cout << a / 2 << endl;
+            }
+            else {
+                cout << (a + 1) / 2 << endl;
+            }
+
+        }
+        else {
+            cout << -1 << endl;
+        }
+    }
+
+}
